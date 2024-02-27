@@ -14,7 +14,7 @@ Ruby on Rails application to manage tasks.
 Clone this repo:
 
 ```
-$ git clone https://github.com/groundberry/todo-list
+$ git clone https://github.com/brunoreis-dev/todo-list-ruby
 ```
 
 Install all dependancies:
@@ -29,6 +29,12 @@ Create the database and run migrations:
 $ rake db:create db:migrate
 ```
 
+Run seeds:
+
+```
+$ rake db:seed
+```
+
 Start the server:
 
 ```
@@ -37,6 +43,14 @@ $ rails server
 
 And open the app in your browser at http://localhost:3000.
 
+## Interactive Console
+
+Open Console:
+
+```
+$ rails console
+```
+
 ## Testing the app
 
 Run the tests:
@@ -44,8 +58,6 @@ Run the tests:
 ```
 $ rake
 ```
-
-![Unit tests](public/img/unit-tests.png)
 
 ## Useful documentation
 

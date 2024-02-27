@@ -1,7 +1,7 @@
-class TasksController < ApplicationController
-
+class TasksController < ApplicationController=
   def index
-    render plain: "Hello, world!"
+    @tasks = Task.all
+    render json: @tasks
   end
 
   def create
